@@ -60,11 +60,11 @@ REFERENCES "subcategory" ("subcategory_id");
 
 SELECT contact_id, first_name, last_name, email 
 FROM contacts 
-ORDER BY last_name
+ORDER BY last_name;
 
-DROP TABLE "campaign"
-DROP TABLE "contacts"
-DROP TABLE "category"
-DROP TABLE "subcategory"
+DROP TABLE "campaign";
+DROP TABLE "contacts";
+DROP TABLE "category";
+DROP TABLE "subcategory";
 
 
